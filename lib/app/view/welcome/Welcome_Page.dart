@@ -331,11 +331,11 @@ class _WelcomePageState extends State<WelcomePage> {
                                   alignment: Alignment.center,
                                   child: Container(
                                     width: 270.0,
-                                    height: 100.0,
+                                    height: 300.0,
                                     decoration: const BoxDecoration(
                                       image: DecorationImage(
                                         image: AssetImage(
-                                            'assets/images/logoSplash.png'),
+                                            'assets/images/logo.png'),
                                         fit: BoxFit.fitWidth,
                                       ),
                                     ),

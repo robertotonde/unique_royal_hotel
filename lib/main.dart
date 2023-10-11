@@ -26,7 +26,7 @@ void main() async {
   WidgetsFlutterBinding
       .ensureInitialized(); //Assign publishable key to flutter_stripe
   Stripe.publishableKey =
-      "pk_test_51MkcnODzHsmg6hHDOxhHPeN6U4tJXa6IMOcFROtQDq7jXUseOUKmCxXXHt1Ktmld2dV0o1bOfwP2S1b68Zxxr7pr00PU1lElJj";
+      "pk_test_51KbHjnLuT9YuvaHTHShjcJ1sqT780OkGd8BMx7kpmqVXRtS8xtCj7DNqCu81CY2eOmr4GJQ9DfX5JeJNT49pJPl900g7xwGwl5";
 
   //Load our .env file that contains our Stripe Secret key
   await dotenv.load(fileName: "assets/.env");

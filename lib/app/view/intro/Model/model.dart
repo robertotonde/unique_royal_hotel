@@ -14,15 +14,15 @@ class ESModel {
 
 List<ESModel> esWalkThroughList = [
   ESModel(
-      title: "Booking Hotel",
-      subTitle: "You can book a hotel easily and quickly with Tracvel application make easier.",
+      title: "Unique Royal Hotel and SUITES",
+      subTitle: "You can book a hotel easily and quickly with unique hotel application make easier.",
       image: "assets/images/OB1.png"),
   ESModel(
       title: "Discover Place",
-      subTitle: "Discover interesting places around you with Tracvel application make easier.",
+      subTitle: "Discover interesting places around you with unique hotel application make easier.",
       image: "assets/images/OB2.png"),
   ESModel(
-      title: "Easy Find Hotel",
-      subTitle: "Easy to find a hotel that suits your needs with Tracvel application make easier.",
+      title: "Easy Find a room",
+      subTitle: "Easy to find a hotel that suits your needs with unique hotel application make easier.",
       image: "assets/images/OB3.png"),
 ];

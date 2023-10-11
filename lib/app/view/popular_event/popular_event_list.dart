@@ -40,7 +40,7 @@ class _PopularEventListState extends State<PopularEventList> {
              elevation: 0.0,
              iconTheme: IconThemeData(color: Colors.black),
              title: getCustomFont(
-               ("Popular Hotel"),
+               ("our rooms"),
                21.sp,
                Colors.black,
                1,

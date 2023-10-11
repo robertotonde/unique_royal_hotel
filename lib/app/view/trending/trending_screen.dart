@@ -42,7 +42,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
           backClick();
         },
             title: getCustomFont(
-              "Country Hotels",
+              "our suites",
               20.sp,
               Colors.black,
               1,
@@ -108,7 +108,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                                   horizontal: 9.h,
                                                   vertical: 9.h),
                                               child: getAssetIcon(
-                                                  "unitedstates.png",
+                                                  "tz.png",
                                                   height: 26.h,
                                                   width: 26.h),
                                             ),
@@ -117,7 +117,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                         ],
                                       ),
                                       const Text(
-                                        "United State",
+                                        "Tanzania",
                                         style: TextStyle(
                                             fontFamily: Constant.fontsFamily,
                                             fontSize: 15.0,
@@ -151,7 +151,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                                 padding: EdgeInsets.symmetric(
                                                     horizontal: 9.h,
                                                     vertical: 9.h),
-                                                child: getAssetIcon("italy.png",
+                                                child: getAssetIcon("tz.png",
                                                     height: 26.h, width: 26.h),
                                               ),
                                             ),
@@ -159,7 +159,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                           ],
                                         ),
                                         const Text(
-                                          "Italy",
+                                          "Tanzania",
                                           style: TextStyle(
                                               fontFamily: Constant.fontsFamily,
                                               fontSize: 15.0,
@@ -193,7 +193,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                                 padding: EdgeInsets.symmetric(
                                                     horizontal: 9.h,
                                                     vertical: 9.h),
-                                                child: getAssetIcon("spain.png",
+                                                child: getAssetIcon("tz.png",
                                                     height: 26.h, width: 26.h),
                                               ),
                                             ),
@@ -201,7 +201,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                           ],
                                         ),
                                         const Text(
-                                          "Spain",
+                                          "Tanzania",
                                           style: TextStyle(
                                               fontFamily: Constant.fontsFamily,
                                               fontSize: 15.0,
@@ -236,7 +236,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                                     horizontal: 9.h,
                                                     vertical: 9.h),
                                                 child: getAssetIcon(
-                                                    "australia.png",
+                                                    "tz.png",
                                                     height: 26.h,
                                                     width: 26.h),
                                               ),
@@ -245,7 +245,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                           ],
                                         ),
                                         const Text(
-                                          "Australia",
+                                          "Tanzania",
                                           style: TextStyle(
                                               fontFamily: Constant.fontsFamily,
                                               fontSize: 15.0,
@@ -290,7 +290,7 @@ class _TrendingScreenState extends State<TrendingScreen> {
                                           ],
                                         ),
                                         const Text(
-                                          "France",
+                                          "Tanzania",
                                           style: TextStyle(
                                               fontFamily: Constant.fontsFamily,
                                               fontSize: 15.0,

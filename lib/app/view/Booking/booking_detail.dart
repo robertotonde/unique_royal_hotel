@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import, duplicate_import, unnecessary_import, must_be_immutable, unused_field, unused_local_variable, unused_element, unnecessary_null_comparison
+
 import 'dart:async';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
@@ -18,7 +20,6 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:pro_hotel_fullapps/app/view/featured_event/Gallery.dart';
 import 'package:pro_hotel_fullapps/app/view/featured_event/SeeAll/questionSeeAll.dart';
 import 'package:pro_hotel_fullapps/app/view/featured_event/SeeAll/reviewSeeAll.dart';
-import 'package:pro_hotel_fullapps/app/view/home/home_screen.dart';
 import 'package:pro_hotel_fullapps/app/widget/love_icon.dart';
 import 'package:pro_hotel_fullapps/app/widget/map_sheet.dart';
 import 'package:provider/provider.dart';
@@ -65,7 +66,7 @@ class _BookingDetailScreenState extends State<BookingDetailScreen> {
   /// Check user
 
      
-  // ignore: unused_field
+
   String _book = "Book Now";
   
 
@@ -488,8 +489,7 @@ class _BookingDetailScreenState extends State<BookingDetailScreen> {
                                                       CrossAxisAlignment.center,
                                                   children: <Widget>[
                                                     Text(
-                                                      "\$${widget.hotel!.price}" ??
-                                                          "",
+                                                      "\$${widget.hotel!.price}",
                                                       style: TextStyle(
                                                           fontSize: 25.0,
                                                           color: Colors.blueAccent,

@@ -220,7 +220,7 @@ class _TabHomeState extends State<TabHome> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      getCustomFont("Nearby Hotels", 20.sp, Colors.black, 1,
+                      getCustomFont("Hotel rooms", 20.sp, Colors.black, 1,
                           fontWeight: FontWeight.w700, txtHeight: 1.5.h),
                       GestureDetector(
                         onTap: () {
@@ -279,7 +279,7 @@ class _TabHomeState extends State<TabHome> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      getCustomFont("Country Hotels", 20.sp, Colors.black, 1,
+                      getCustomFont("Our Suites", 20.sp, Colors.black, 1,
                           fontWeight: FontWeight.w700, txtHeight: 1.0.h),
                       GestureDetector(
                         onTap: () {
@@ -352,7 +352,7 @@ class _TabHomeState extends State<TabHome> {
                                                   horizontal: 9.h,
                                                   vertical: 9.h),
                                               child: getAssetIcon(
-                                                  "unitedstates.png",
+                                                  "tz.png",
                                                   height: 26.h,
                                                   width: 26.h),
                                             ),
@@ -361,7 +361,7 @@ class _TabHomeState extends State<TabHome> {
                                         ],
                                       ),
                                       const Text(
-                                        "United State",
+                                        "Tanzania",
                                         style: TextStyle(
                                             fontFamily: Constant.fontsFamily,
                                             fontSize: 15.0,
@@ -395,7 +395,7 @@ class _TabHomeState extends State<TabHome> {
                                                 padding: EdgeInsets.symmetric(
                                                     horizontal: 9.h,
                                                     vertical: 9.h),
-                                                child: getAssetIcon("italy.png",
+                                                child: getAssetIcon("tz.png",
                                                     height: 26.h, width: 26.h),
                                               ),
                                             ),
@@ -403,7 +403,7 @@ class _TabHomeState extends State<TabHome> {
                                           ],
                                         ),
                                         const Text(
-                                          "Italy",
+                                          "Tanzania",
                                           style: TextStyle(
                                               fontFamily: Constant.fontsFamily,
                                               fontSize: 15.0,
@@ -437,7 +437,7 @@ class _TabHomeState extends State<TabHome> {
                                                 padding: EdgeInsets.symmetric(
                                                     horizontal: 9.h,
                                                     vertical: 9.h),
-                                                child: getAssetIcon("spain.png",
+                                                child: getAssetIcon("tz.png",
                                                     height: 26.h, width: 26.h),
                                               ),
                                             ),
@@ -445,7 +445,7 @@ class _TabHomeState extends State<TabHome> {
                                           ],
                                         ),
                                         const Text(
-                                          "Spain",
+                                          "Tanzania",
                                           style: TextStyle(
                                               fontFamily: Constant.fontsFamily,
                                               fontSize: 15.0,
@@ -480,7 +480,7 @@ class _TabHomeState extends State<TabHome> {
                                                     horizontal: 9.h,
                                                     vertical: 9.h),
                                                 child: getAssetIcon(
-                                                    "australia.png",
+                                                    "tz.png",
                                                     height: 26.h,
                                                     width: 26.h),
                                               ),
@@ -489,7 +489,7 @@ class _TabHomeState extends State<TabHome> {
                                           ],
                                         ),
                                         const Text(
-                                          "Australia",
+                                          "Tanzania",
                                           style: TextStyle(
                                               fontFamily: Constant.fontsFamily,
                                               fontSize: 15.0,
@@ -1142,7 +1142,7 @@ class _TabHomeState extends State<TabHome> {
                         padding:
                             const EdgeInsets.only(left: 20.0, bottom: 10.0),
                         child: getCustomFont(
-                            "Category ", 20.sp, Colors.black, 1,
+                            "our hotel rooms category ", 20.sp, Colors.black, 1,
                             fontWeight: FontWeight.w700, txtHeight: 1.5.h),
                       ),
                       Expanded(
@@ -1232,7 +1232,7 @@ class _TabHomeState extends State<TabHome> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      getCustomFont("Popular Hotels", 20.sp, Colors.black, 1,
+                      getCustomFont("Best rooms in our Hotel", 20.sp, Colors.black, 1,
                           fontWeight: FontWeight.w700, txtHeight: 1.5.h),
                       GestureDetector(
                         onTap: () {

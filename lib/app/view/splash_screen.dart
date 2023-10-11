@@ -71,7 +71,7 @@ afterSplash(){
             alignment: Alignment.center,
             child: Container(
               width: 270.0,
-              height: 100.0,
+              height: 300.0,
               decoration: const BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage('assets/images/logo.png'),
